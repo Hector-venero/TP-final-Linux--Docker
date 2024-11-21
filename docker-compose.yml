@@ -9,7 +9,7 @@ services:
       MYSQL_USER: admlinux
       MYSQL_PASSWORD: admpassword
     ports:
-      - "3307:3306"  # puerto 3306 de MySQL al 3307 de la pc
+      - "3307:3306"  # puerto 3306 de MySQL al 3307 de la PC
     volumes:
       - mysql_data:/var/lib/mysql
     networks:
@@ -40,3 +40,4 @@ networks:
 
 volumes:
   mysql_data:
+
